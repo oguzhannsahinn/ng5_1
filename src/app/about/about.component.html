@@ -1,0 +1,18 @@
+<p>
+  This is what I'm all about.
+  <a href="" (click)="sendMeHome()" style="text-decoration:none;">
+    <strong style="font-style: normal;">Take me back</strong>
+  </a>
+</p>
+
+<hr style="border-color: greenyellow">
+
+<div class="container" style="margin-top: 2em; font-size: 26px;">
+  <span style="font-weight: bold; font-size: 35px !important; padding-left: 13px">Goals</span>
+  <ul style="margin-top: 5px;">
+    <li *ngFor="let goal of goals">
+      <span style="color:greenyellow; font-size: 20px; font-weight: bold; line-height: 2em;">-</span> {{goal}}
+      <br>
+    </li>
+  </ul>
+</div>
